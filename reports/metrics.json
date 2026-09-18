@@ -1,0 +1,57 @@
+{
+  "dataset": "AI4I 2020 Predictive Maintenance",
+  "rows": 10000,
+  "failure_rate": 0.0339,
+  "split_rows": {
+    "train": 6000,
+    "validation": 2000,
+    "test": 2000
+  },
+  "selection_metric": "validation average precision",
+  "selected_model": "hist_gradient_boosting",
+  "selected_threshold": 0.02,
+  "cost_assumptions": {
+    "false_negative": 25.0,
+    "false_positive": 1.0
+  },
+  "test_metrics": {
+    "roc_auc": 0.977712824260139,
+    "average_precision": 0.9019577291529898,
+    "precision": 0.34831460674157305,
+    "recall": 0.9117647058823529,
+    "f1": 0.5040650406504065,
+    "brier_score": 0.008657640391673849,
+    "true_negatives": 1816,
+    "false_positives": 116,
+    "false_negatives": 6,
+    "true_positives": 62,
+    "threshold": 0.02
+  },
+  "top_permutation_features": [
+    {
+      "feature": "Torque",
+      "importance_mean": 0.7065380303606116,
+      "importance_std": 0.011962712591940065
+    },
+    {
+      "feature": "Rotational speed",
+      "importance_mean": 0.5377663240314541,
+      "importance_std": 0.023481142191282514
+    },
+    {
+      "feature": "Air temperature",
+      "importance_mean": 0.5246495533797818,
+      "importance_std": 0.02746903411943256
+    },
+    {
+      "feature": "Process temperature",
+      "importance_mean": 0.3422192541470563,
+      "importance_std": 0.016228252857026802
+    },
+    {
+      "feature": "Tool wear",
+      "importance_mean": 0.3055326903953501,
+      "importance_std": 0.03105878322808255
+    }
+  ]
+}

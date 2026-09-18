@@ -1,0 +1,27 @@
+{
+  "rows": 10000,
+  "columns": 14,
+  "duplicate_rows": 0,
+  "failure_count": 339,
+  "failure_rate": 0.0339,
+  "failure_mode_target_mismatches": 27,
+  "model_input_columns": [
+    "Type",
+    "Air temperature",
+    "Process temperature",
+    "Rotational speed",
+    "Torque",
+    "Tool wear"
+  ],
+  "excluded_id_columns": [
+    "UID",
+    "Product ID"
+  ],
+  "excluded_leakage_columns": [
+    "TWF",
+    "HDF",
+    "PWF",
+    "OSF",
+    "RNF"
+  ]
+}
