@@ -89,9 +89,7 @@ industrial-predictive-maintenance-ml/
 │   └── threshold_analysis.csv
 ├── src/predictive_maintenance/
 ├── tests/
-├── INTERVIEW_GUIDE.md
 ├── MODEL_CARD.md
-├── RESUME_BULLETS.md
 ├── requirements.txt
 └── run_pipeline.py
 ```
@@ -121,21 +119,3 @@ python run_pipeline.py
 python -m unittest discover -s tests -v
 streamlit run app/app.py
 ```
-
-## Design decisions worth discussing in interviews
-
-- Why failure-mode columns are leakage
-- Why average precision is useful for rare failures
-- Why the alert threshold is a business decision rather than a model constant
-- Why the validation set chooses the model and threshold while the test set stays untouched
-- Why synthetic benchmark performance cannot be treated as a plant-deployment result
-
-## Responsible-use note
-
-This is an educational portfolio project. The dataset is synthetic, the cost ratio is illustrative, and the model is not validated for safety-critical or production maintenance decisions.
-
-## Author
-
-**Burra Vijyusha**  
-B.Tech, Metallurgical Engineering and Materials Science  
-Indian Institute of Technology Indore
