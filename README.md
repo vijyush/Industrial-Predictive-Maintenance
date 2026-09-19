@@ -2,10 +2,6 @@
 
 An end-to-end, leakage-safe machine-learning project that converts operating conditions into cost-sensitive maintenance alerts. The repository goes beyond a single notebook: it includes data validation, physically interpretable feature engineering, model benchmarking, threshold optimization, held-out evaluation, explainability, automated tests, a model card, and a Streamlit application.
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6%2B-F7931E)
-![License](https://img.shields.io/badge/code-MIT-green)
-![Data](https://img.shields.io/badge/data-CC%20BY%204.0-blue)
 
 ## Business problem
 
